@@ -25,3 +25,8 @@ print(arr.pop(1))
 print("array after popping is: ", end=" ")
 for i in range(0,len(arr)):
     print(arr[i], end=" ")
+#removing elements of array using remove method
+arr.remove(6)
+print("\narray after removing is: ",end=" ")
+for i in range(0,len(arr)):
+    print(arr[i],end=" ")
