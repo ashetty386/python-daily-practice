@@ -19,3 +19,9 @@ print()
 print("the element at 0th index is:",arr[0])
 print("the element at 1st index is", arr[1])
 print("the element at 2nd index is",arr[2])
+#removing elements of array using pop method
+print("popped element is: ", end=" ")
+print(arr.pop(1))
+print("array after popping is: ", end=" ")
+for i in range(0,len(arr)):
+    print(arr[i], end=" ")
